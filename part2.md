@@ -61,15 +61,10 @@ Merge: Incorporates changes from one repository to another
 
 ### 6.	In a merged source code file, how does Git let you know there is a conflict? <br>
 * git log command will produce a log with a list of commits that conflict between the merging branches.
+
 ### 7.	What are the steps you can take to resolve Git conflicts? <br>
-### [Will go over this next week - bc right now this is wrong] <br>
-1. Use "git status" 
-1. To identify merge conflicts you can use tool "git log -- merge" to the git log command and it will produce a list of commits that conflict between the merging branches
-1. Using "git diff" will find diferenceces between states of files/repository. This can help you to predict and prevent merge conflicts. 
-1. If a merge has failed you can use "git checkout" to undo changes to files, or branches. 
-1. You can use "git reset --mixed" to undo changes to the working directory and staging area. <br>
-
-
+1. After merging and Git identifies a conflict and will modify the file with conflicts
+1. The most direct way to resolve a merge conflict is to edit the conflicted file and choose what to keep.
 
 ### 8.	What does git revert do, and how can you use it? <br>
 * Git revert can undo prevoius changes in a commit without losing what you haven commited post that commit. 
