@@ -23,7 +23,24 @@ If you have any issures installing Git on your system, please reach out to our I
 ### 2.	Do research on some principles/techniques of industry standard best practices creating and working with repositories and branches in Git. 
 
 #### a.	List the most important principles/techniques for creating and working with repositories
+* Always have the most current version of your project in the master repository
+* Keep repositories easy to understand by commiting small changes frequently
+* Using branchs for individual team participants
+
 #### b.	List the most important principles/techniques for creating and working with branches
+* Identify and use a branching strategy.
+* Create a branch for each feature
+* Delete your local and remote branches after merging
+* Merge early and often
+* Avoid merge commit2s 
 
 
 ### 3.	List the steps in a Git workflow that the team should follow when working on projects.
+1. Clone repository.
+1. git fetch and git rebase.
+1. Create a new branch.
+1. Add commits.
+1. git fetch and git rebase (on the master branch)
+1. Push the commits.
+1. Create a Pull Request.
+1. Discuss, review and merge pull request.
