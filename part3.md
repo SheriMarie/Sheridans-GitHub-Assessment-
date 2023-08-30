@@ -8,7 +8,7 @@
 #### a.	What are the requirements to install Git on a system.
 #### b.	If you had issues installing Git the workplace, give instructions on who you could you enquire about the installation disruption.
 
-System requirements for installing Git: <br>
+### System requirements for installing Git: <br>
 * Git for Windows requires Windows 7 Service Pack 1 or later
 * At least 258.1MB of free disk space
 ### Instructions for installing Git: <br>
